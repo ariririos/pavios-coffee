@@ -1,0 +1,25 @@
+{
+  "name": "pavios-coffee",
+  "version": "0.0.1",
+  "description": "The 'coffee' task for Pavios.",
+  "main": "build/index.js",
+  "scripts": {
+    "prepublish": "./node_modules/.bin/coffee -cbmo build/ src/index.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rioc0719/pavios-coffee.git"
+  },
+  "author": "Cristian Rios <cristian.rios0719@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-coffee": "^2.3.1",
+    "gulp-uglify": "^1.4.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.10.0"
+  },
+  "peerDependencies": {
+    "pavios": "^0.0.0"
+  }
+}
